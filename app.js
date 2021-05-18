@@ -81,6 +81,7 @@ app.get("/", function (req, res) {
 
 app.get("/detail", async function (req, res) {
   console.log(req.query);
+  preferencia.items=[]
 
   const { img, title, price, unit } = req.query; 
   const item = {
