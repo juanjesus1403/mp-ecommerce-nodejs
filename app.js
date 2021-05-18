@@ -66,7 +66,7 @@ const preferencia = {
   payer: cliente,
   auto_return: "approved",
   notification_url: "", 
-  external_reference: "ederiveroman@gmail.com",
+  external_reference: "juanjesus_eq96@hotmail.com",
 };
 app.engine("handlebars", exphbs());
 app.set("view engine", "handlebars");
